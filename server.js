@@ -1,5 +1,5 @@
 import app from "./src/app.js";
-import connectDb from "./config/database.js";
+import connectDb from "./src/config/database.js";
 connectDb();
 
 app.listen(3000,()=>{
